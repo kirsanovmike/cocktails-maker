@@ -1,7 +1,7 @@
 <template>
   <v-footer dark padless>
     <v-card flat tile class="secondary white--text text-center">
-      <v-card-text>
+      <!-- <v-card-text>
         <v-btn
           v-for="(icon, i) in icons"
           :key="i"
@@ -12,17 +12,16 @@
         >
           <v-icon size="24px">{{ icon.text }}</v-icon>
         </v-btn>
-      </v-card-text>
+      </v-card-text> -->
 
       <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-        Mauris cursus commodo interdum.
+        Thank you for being with us. We try to make the best services for you.
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Calango WEB</strong>
+        {{ new Date().getFullYear() }} — <strong>Cocktails Maker WEB</strong>
       </v-card-text>
     </v-card>
   </v-footer>

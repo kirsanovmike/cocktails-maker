@@ -1,108 +1,55 @@
 <template>
   <section id="pricing" class="pb-8">
-    <v-container fluid>
+    <v-container fluid class="pt-2">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-card style="width: 100%">
-            <h1 class="text-center pt-6 font-weight-light display-2">Planos</h1>
+            <h1 class="text-center pt-6 font-weight-light display-2">Plans</h1>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
-              <v-col class="col-12 col-sm-6 col-md-4">
+              <v-col class="col-12 col-sm-6 col-md-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/paperplane.svg"></v-img>
+                          <v-img src="~@/assets/img/cocktail111.png"></v-img>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Básico</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Limite de 1000 acessos diários</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Outras características...</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 20,00</div>
-                    <v-btn
-                        v-bind="size"
-                        rounded
-                        outlined
-                        color="blue"
-                        class="mt-6"
-                    >
-                      Comece Agora!
-                    </v-btn>
+                    <div class="text--disabled text-uppercase text-h5 my-2">Basic (Free)</div>
+                    <v-divider class="mt-6 mb-3"/>
+                    <div class="text-uppercase grey--text">Several free cocktails</div>
+                    <v-divider class="my-3"/>
+                    <div class="text-uppercase grey--text">Serving by quantity</div>
+                    <v-divider class="my-3"/>
+                    <div class="text-uppercase grey--text">Description of the equipment</div>
+                    <v-divider class="my-3"/>
+                    <div class="text-uppercase text-h4 mt-6 blue--text">0.00$</div>
                   </v-card-text>
                   <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.smAndUp"></v-divider>
                 </div>
                 <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
               </v-col>
-              <v-col class="col-12 col-sm-6 col-md-4">
+              <v-col class="col-12 col-sm-6 col-md-6">
                 <div class="flex-center">
                   <v-card-text>
                     <div class="flex-center">
                       <div class="circle1">
                         <div class="circle2">
-                          <v-img src="~@/assets/img/airplane.svg"/>
+                          <v-img src="~@/assets/img/cocktails premium111.png"></v-img>
                         </div>
                       </div>
                     </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Padrão</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Limite de 10000 acessos diários</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Outras características...</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 100,00</div>
-                    <v-btn
-                        v-bind="size"
-                        rounded
-                        outlined
-                        color="blue"
-                        class="mt-6"
-                    >
-                      Comece Agora!
-                    </v-btn>
-                  </v-card-text>
-                  <v-divider style="margin-right: -23px" vertical v-if="this.$vuetify.breakpoint.mdAndUp"></v-divider>
-                </div>
-                <v-divider class="mx-4" v-if="!this.$vuetify.breakpoint.smAndUp"></v-divider>
-              </v-col>
-              <v-col class="col-12 col-md-4">
-                <v-divider v-if="this.$vuetify.breakpoint.smOnly" class="mx-4"></v-divider>
-
-                <div class="flex-center">
-                  <v-card-text>
-                    <div class="flex-center">
-                      <div class="circle1">
-                        <div class="circle2">
-                          <v-img src="~@/assets/img/aeroplane.svg"/>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="text--disabled text-uppercase text-h5 my-2">Empresarial</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Domínios personalizados</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Acessos ilimitados</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase blue--text">Outras características...</div>
-                    <v-divider class="my-2"/>
-                    <div class="text-uppercase text-h4 mt-6 blue--text">R$ 500,00</div>
-                    <v-btn
-                        v-bind="size"
-                        rounded
-                        outlined
-                        color="blue"
-                        class="mt-6"
-                    >
-                      Comece Agora!
-                    </v-btn>
+                    <div class="grey--text text--darken-1 text-uppercase text-h5 my-2">Premium (+)</div>
+                    <v-divider class="mt-6 mb-3"/>
+                    <div class="text-uppercase grey--text text--darken-1">All basic options</div>
+                    <v-divider class="my-3"/>
+                    <div class="text-uppercase grey--text text--darken-1">All cocktails</div>
+                    <v-divider class="my-3"/>
+                    <div class="text-uppercase grey--text text--darken-1">No ads</div>
+                    <v-divider class="my-3"/>
+                    <div class="text-h4 mt-6 blue--text">5.99$/month</div>
                   </v-card-text>
                 </div>
               </v-col>

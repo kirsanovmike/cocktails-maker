@@ -1,15 +1,14 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax src="@/assets/img/MainCocktailsMaker999.jpg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
+              <h1 class="display-2 font-weight-bold mb-4">Cocktails Maker</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+                An application that will brighten up your evening. <br />
+                It will shake you up after working days.
               </h1>
               <v-btn
                 rounded
@@ -19,10 +18,10 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                Saiba mais
+                Find more
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
-              <div class="video d-flex align-center py-4">
+              <!-- <div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">
                   <svg
                     version="1.1"
@@ -63,7 +62,7 @@
                   </svg>
                 </a>
                 <p class="subheading ml-2 mb-0">Assista o vídeo</p>
-              </div>
+              </div> -->
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
@@ -100,7 +99,7 @@
                   <v-img
                     :src="feature.img"
                     max-width="100px"
-                    class="d-block ml-auto mr-auto"
+                    class="d-block ml-auto mr-auto mt-8"
                     :class="{ 'zoom-efect': hover }"
                   ></v-img>
                   <h1 class="font-weight-regular">{{ feature.title }}</h1>
@@ -137,19 +136,19 @@ export default {
       videoId: "i8IvvHJssWE",
       features: [
         {
-          img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/delicious.png"),
+          title: "Delicious",
+          text: "The taste of our cocktails will amaze everyone!",
         },
         {
-          img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/data-analysis.png"),
+          title: "Proportionally",
+          text: "We will help with a set with proportions for a group of friends.",
         },
         {
-          img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/choices.png"),
+          title: "Preferences",
+          text: "Choosing the fortress and size, we will select suitable options for you.",
         },
       ],
     };
