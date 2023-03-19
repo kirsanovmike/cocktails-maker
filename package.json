@@ -1,8 +1,8 @@
 {
-  "name": "cocktails-maker",
+  "name": "cocktail-lover",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kirsanovmike.github.io/cocktails-maker/",
+  "homepage": "https://kirsanovmike.github.io/cocktail-lover/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

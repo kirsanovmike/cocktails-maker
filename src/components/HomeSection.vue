@@ -5,7 +5,7 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Cocktails Maker</h1>
+              <h1 class="display-2 font-weight-bold mb-4">Cocktail Lover</h1>
               <h1 class="font-weight-light">
                 An application that will brighten up your evening. <br />
                 It will shake you up after working days.

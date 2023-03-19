@@ -1,4 +1,4 @@
-# Cocktails Maker Landing Page
+# Cocktail Lover Landing Page
 
 ## 🚀 Project setup
 

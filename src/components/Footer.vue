@@ -21,7 +21,7 @@
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Cocktails Maker WEB</strong>
+        {{ new Date().getFullYear() }} — <strong>Cocktail Lover WEB</strong>
       </v-card-text>
     </v-card>
   </v-footer>
