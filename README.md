@@ -7,7 +7,7 @@ Use [git](https://git-scm.com/) to clone the project.
 ```
 Enter the project.
 ```bash
-cd vuetify-landing-page
+cd cocktails-maker
 ```
 Use [npm](https://www.npmjs.com/) to install dependencies.
 ```bash
